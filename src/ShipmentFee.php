@@ -2,7 +2,7 @@
 namespace MyLib;
 
 class ShipmentFee {
-    public function main($rules, $pounds)
+    public function main()
     {
         echo calculate_shipment_fee('rule1', 2);
         echo calculate_shipment_fee('rule1', 2.4);
